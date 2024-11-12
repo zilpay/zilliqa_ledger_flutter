@@ -8,9 +8,6 @@
 <p align="center">
     A Flutter Ledger App Plugin for the Zilliqa blockchain
     <br />
-    <a href="https://pub.dev/documentation/zilliqa_ledger_flutter/latest/"><strong>« Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/zilpay/zilliqa_ledger_flutter/issues">Report Bug</a>
     · <a href="https://github.com/zilpay/zilliqa_ledger_flutter/issues">Request Feature</a>
     · <a href="https://pub.dev/packages/ledger_flutter">Ledger Flutter</a>
