@@ -41,3 +41,18 @@
 
 ### Known Issues
 -
+
+## 0.0.3 - 2024-03-19
+
+### Added
+- None (initial release)
+
+### Fixed
+- fixed platform
+
+### Changed
+- None (initial release)
+
+### Known Issues
+-
+
