@@ -1,4 +1,4 @@
-library ledger_zilliqa;
+library zilliqa_ledger_flutter;
 
 export 'src/zilliqa_ledger_application.dart';
 export 'src/zilliqa_transformer.dart';
