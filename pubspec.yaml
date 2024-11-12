@@ -6,8 +6,8 @@ homepage: https://github.com/zilpay/zilliqa_ledger_flutter
 issue_tracker: https://github.com/zilpay/zilliqa_ledger_flutter/issues
 
 environment:
-  sdk: ">=2.17.6"
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:

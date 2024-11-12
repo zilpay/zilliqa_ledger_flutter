@@ -27,3 +27,17 @@
 
 ### Known Issues
 - None (initial release)
+
+## 0.0.3 - 2024-03-19
+
+### Added
+- None (initial release)
+
+### Fixed
+- fixed pubspect
+
+### Changed
+- None (initial release)
+
+### Known Issues
+-
