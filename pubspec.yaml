@@ -1,15 +1,36 @@
 name: zilliqa_ledger_flutter
-description: A starting point for Dart libraries or applications.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: A Zilliqa Ledger Plugin for Flutter. Supports sending transactions and getting accounts from Ledger hardware wallets.
+version: 0.0.1
+repository: https://github.com/zilpay/zilliqa_ledger_flutter
+homepage: https://github.com/zilpay/zilliqa_ledger_flutter
+issue_tracker: https://github.com/zilpay/zilliqa_ledger_flutter/issues
 
 environment:
   sdk: ^3.5.4
+  flutter: ">=3.0.0"
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  ledger_flutter: ^1.0.1
 
 dev_dependencies:
   lints: ^4.0.0
   test: ^1.24.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.zilpay.zilliqa_ledger_flutter
+        pluginClass: ZilliqaLedgerFlutterPlugin
+      ios:
+        pluginClass: ZilliqaLedgerFlutterPlugin
+
+topics:
+  - ledger
+  - blockchain
+  - zilliqa
+  - hardware-wallet
+  - web3
+
+funding:
+  - https://github.com/sponsors/zilpay
