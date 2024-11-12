@@ -1,20 +1,20 @@
 import 'dart:typed_data';
+import 'package:ledger_flutter/ledger_flutter.dart';
 import 'package:zilliqa_ledger_flutter/zilliqa_ledger_flutter.dart';
 
 Future<void> main() async {
+  final options = LedgerOptions(
+    maxScanDuration: const Duration(
+      milliseconds: 5000,
+    ),
+  );
+
   // Initialize Ledger
-  final ledger = Ledger();
+  final ledger = Ledger(options: options);
 
   try {
     // Get list of available devices
-    final devices = await ledger.getDevices();
-    if (devices.isEmpty) {
-      print('No Ledger devices found');
-      return;
-    }
-
-    // Get first device
-    final device = devices[0];
+    final device = ledger.devices[0];
 
     try {
       // Connect to the device
@@ -104,12 +104,5 @@ Future<void> main() async {
     }
   } catch (e) {
     print('Unexpected error: $e');
-  } finally {
-    // Clean up
-    try {
-      await ledger.disconnect();
-    } catch (e) {
-      print('Error during disconnect: $e');
-    }
-  }
+  } finally {}
 }

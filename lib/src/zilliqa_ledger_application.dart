@@ -1,12 +1,6 @@
 import 'dart:typed_data';
 import 'package:ledger_flutter/ledger_flutter.dart';
-import 'package:zilpay/ledger/src/operations/zilliqa_public_address_operation.dart';
-import 'package:zilpay/ledger/src/operations/zilliqa_public_key_operation.dart';
-import 'package:zilpay/ledger/src/operations/zilliqa_sign_hash_operation.dart';
-import 'package:zilpay/ledger/src/operations/zilliqa_sign_transaction_operation.dart';
-import 'package:zilpay/ledger/src/operations/zilliqa_version_operation.dart';
-import 'zilliqa_version.dart';
-import 'zilliqa_transformer.dart';
+import 'package:zilliqa_ledger_flutter/zilliqa_ledger_flutter.dart';
 
 /// A [LedgerApp] used to perform BLE operations on a ledger [Zilliqa]
 /// application.

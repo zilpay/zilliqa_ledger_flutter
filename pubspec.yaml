@@ -34,3 +34,7 @@ topics:
 
 funding:
   - https://github.com/sponsors/zilpay
+
+platforms:
+  android:
+  ios:
